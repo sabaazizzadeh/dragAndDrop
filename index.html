@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 549px ;
+            /* height: 555px ; */
+            height: 750px;
+            background-color: #EFF4FB;
+            border-radius:20px;
+            border: none ;
+            
+        }
+        .SortableList{
+            width: 223px;
+            height: 48px;
+            padding-top: 40px;
+            padding-left: 40px;
+            font-size:40px ;
+
+        }
+        .itemHolder{
+           
+            width: 443px;
+            /* height: 397px; */
+            height: 610px;
+            border-radius: 10px;
+            border: dashed 2px;
+            border-color: #AABDD9;
+            margin: auto;
+       
+        }
+        .listItem{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between ;
+            width: Hug (422px) ;
+            height: Hug (93px);
+            background-color:#FFFFFF ;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px;
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        img {
+            width: 10px;
+            height:  18px;
+            margin: auto;
+            margin-right: 20px;
+        }
+        .itemTitle{
+            width: 108px;
+            height: 10px;
+            font-size: 23px;
+        }
+        .paragraph{
+            width: 350px;
+            height: 19px;
+            color: #808080;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="SortableList">Sortable List</h1>
+        <div class="itemHolder">
+            <div class="listItem" draggable="true">
+                <img  src="./assets/images/Group 1.png" alt="">
+                <div>
+                <h2 class="itemTitle">List Item 1</h2>
+                <p class="paragraph">Description of the first item in the list. </p>
+                </div>
+            </div>
+            <div class="listItem" draggable="true">
+                <img  src="./assets/images/Group 1.png" alt="">
+                <div>
+                <h2 class="itemTitle">List Item 2</h2>
+                <p class="paragraph">Description of the first item in the list. </p>
+                </div>
+            </div>
+            <div class="listItem" draggable="true">
+                <img  src="./assets/images/Group 1.png" alt="">
+                <div>
+                <h2 class="itemTitle">List Item 3</h2>
+                <p class="paragraph">Description of the first item in the list. </p>
+                </div>
+            </div>
+            <div class="listItem" draggable="true">
+                <img  src="./assets/images/Group 1.png" alt="">
+                <div>
+                <h2 class="itemTitle">List Item 4</h2>
+                <p class="paragraph">Description of the first item in the list. </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
